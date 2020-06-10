@@ -1,7 +1,7 @@
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
-    background:url('https://i.ibb.co/94H1JKp/Nie-R-UI-lens-effect-dark-copper.png') center/cover no-repeat !important;
+    --background:url('https://i.ibb.co/94H1JKp/Nie-R-UI-lens-effect-dark-copper.png') center/cover no-repeat !important;
     /* 
     https://i.ibb.co/qyq2Mvw/R4HPUxC.png border
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
@@ -32,115 +32,6 @@
     user-select: none;
     pointer-events: none;
 }
-/* ===============CURSORS================== */
-/* i don't want no dang weird cursors */
-/* #app-mount, .da-chat .da-title, .titleBar-AC4pGV /* DEFAULT */
-/*{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur'), default !important;
-}
-
-textarea, input, .da-markup /* TEXT 
-{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default !important;
-}
-a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
-.clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
-.da-winButton /* POINTER 
-{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur'), default !important;
-}
-.disabled, .modeLocked-SZJhTy /* DISABLED PLACES 
-{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur'), default !important;    
-}
-*/
-
-::placeholder, body, button, input, select, textarea{font-family: var(--nier-font), Arial, Helvetica, sans-serif;}
-strong {font-family: Arial, Helvetica, sans-serif}
-.theme-dark .markup-2BOw-j,
-#app-mount .channels-Ie2l6A, /* CHANNELS FONT */
-.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT 
-{
-    color: var(--color-low);
-    font-size: 11pt;
-    font-family: var(--nier-font), Arial, Helvetica, sans-serif;
-}
-.wordmark-2iDDfm /* GET RID OF DISCORD WATERMARK */
-{
-    opacity: 0;
-}
-
-/* TRANSPARENCY  */
-.positionedContainer-l-ZqRq
-{
-    visibility: hidden;
-}
-.appMount-3lHmkl,
-.theme-dark .header-39GIC8,
-.theme-dark .wrapper-39oAo3,
-.theme-dark .separator-1N1EBC, /* ACTIVITY FEED NOW PLAYING SEPERATOR */
-.theme-dark .headerBar-UHpsPw,
-.theme-dark .applicationStore-1pNvnv,
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, /* CLICKING ON VOICE CHANNEL */
-.theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .container-2Thooq, .theme-light .container-2Thooq,
-.theme-dark .root-1BQpZw,
-.channels-Ie2l6A,
-.container-2lgZY8,
-.theme-dark .container-3gCOGc,
-.privateChannels-1nO12o,
-.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,
-.theme-dark .standardSidebarView-3F1I7i,
-.theme-dark .activityFeed-28jde9,
-.theme-dark .activityFeed-1C0EmJ, /* activity feed */
-.wrapper-KXM2i0,
-.contextMenu-HLZMGh,
-.theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .pageWrapper-1PgVDX,
-.theme-dark .wrapper-1Rf91z,
-.clickable-1JJAn8:hover .layout-2DM8Md,
-.theme-dark .applicationStore-1pNvnvm,
-.theme-dark .divider-3FBTu8, /* CHANNEL TITLE DIVIDER */ 
-.theme-dark .sidebarRegion-VFTUkN,
-.theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .typing-2GQL18,
-.wrapper-2qzCYF,
-.theme-dark .messagesWrapper-3lZDfY,
-.theme-dark .separator-XqIyoz,
-.theme-dark .title-3qD0b-,
-.theme-dark .tile-2OwFgW:hover,
-.theme-dark .container-1r6BKw,
-.container-PNkimc,
-.gradientContainer-10lXLB,
-.selected-aXhQR6 .layout-2DM8Md,
-.theme-dark .messageG,
-.scrollableContainer-2NUZem,
-.theme-dark .tile-2OwFgW,
-.theme-dark .contentRegion-3nDuYy,
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ,
-.app-2rEoOp
-{
-    background: transparent !important;
-} /* THANK YOU ACCRAZED FOR PROVIDING THIS TRANSPARENCY */ 
-/* no problem :) */
-
-
-
-
-.theme-dark .headerCozyMeta-rdohGq /* CHANGES ROLE COLOR IN MESSAGE HEADERS TO --color-low */
-{
-    color: var(--color-low) !important;
-}
-div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT MENU/IMAGE UPLOAD/ETC */
-{
-    background:rgba(0, 0, 0, 0.2) !important
-} 
-#app-mount /* .timestampCozy-2hLAPV  */
-{
-    color: var(--color-low);
-}
-
-
 
 
 /* ============================== SCROLLBARS ===============================  */
